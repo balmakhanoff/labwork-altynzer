@@ -1,0 +1,29 @@
+.warning, .error, .success {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.box {
+  height: 50px;
+  width: 100px;
+  background-color: black;
+}
+
+.success {
+  background-color: green;
+  font-size: 2rem;
+}
+
+.error {
+  background-color: red;
+  font-size: 2em;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.text {
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+@import 'mixins';
+
+.box {
+    @include card(50px, 100px, black);
+}
+
+
+.success {
+    @extend %message;
+    background-color: green;
+    font-size: 2rem;
+}
+
+.error {
+    @extend %message;
+    background-color: red;
+    font-size: 2em;
+}
+
+.warning {
+    @extend %message;
+    background-color: orange;
+}
+
+.text {
+    font-size: 40px;
+}
